@@ -1,1 +1,1 @@
-web: gunicorn num2Word.wsgi
+web: gunicorn numtoWord.wsgi
