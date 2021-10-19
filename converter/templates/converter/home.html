@@ -1,0 +1,31 @@
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<div class="container text-center">
+  <h1>Number to Word Converter</h1>
+
+  <form name='converter' action="{% url 'convert' %}" onsubmit="return validate()" >
+  Number</br>
+    <input type="number" name="num" id = "num" required> 
+    <br>
+    </br>
+
+
+    <input type="submit" value="Convert Number" onclick="myFunction()" class="btn btn-primary">
+  </form>
+</div>
+
+<script>
+function validate(){
+var numinp=document.converter.num.value;
+if (isNaN(num)){
+  document.getElementById("numinp").innerHTML="Enter Numeric value only";
+  return false;
+}else{
+  return true;
+  }
+}
+</script>
+
+
