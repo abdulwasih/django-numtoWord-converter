@@ -1,0 +1,1 @@
+web: gunicorn num2Word.wsgi
