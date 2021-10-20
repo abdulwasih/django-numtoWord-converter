@@ -83,6 +83,7 @@ DATABASES = {
 	    'USER': 'fwmjokiswxstnv',
 	    'PASSWORD':'5c949ff29ba6ce3972284205f279683831ceb32d590d990bc2759c64a67172d3',
 	    'HOST': 'ec2-52-201-72-91.compute-1.amazonaws.com',
+        'PORT' : '5432',
     }
 }
 
